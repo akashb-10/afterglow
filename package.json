@@ -9,19 +9,32 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@remotion/bundler": "^4.0.354",
+    "@remotion/renderer": "^4.0.354",
+    "@sparticuz/chromium": "^138.0.2",
+    "@supabase/supabase-js": "^2.58.0",
+    "dexie": "^4.2.0",
+    "formidable": "^3.5.4",
+    "next": "15.5.4",
+    "next-pwa": "^5.6.0",
+    "puppeteer-core": "^24.22.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.5.4"
+    "recordrtc": "^5.6.2",
+    "remotion": "^4.0.354",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4.1.14",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.14",
+    "typescript": "^5"
   }
 }
